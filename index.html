@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="heading">
+            <h1 class="title animated rubberBand">
+                Tic-<span>Tac-</span>Toe
+            </h1>
+        </div>
+        <div class="menu">
+            <p class="instructions">INSTRUCTIONS</p>
+            <p class="reset">RESET</p>
+        </div>
+        <br><br>
+        <div class="next-player">        
+            <p>PLAYER <span class="players-turn">O</span> IS NEXT</p>
+        </div>
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-heading">
+                    <h1>Tic-Tac-Toe</h1>
+                </div>
+
+                <p>You probably already know how to play Tic-Tac-Toe. It's a really simple game, right? That's what most people think. But if you really wrap your brain around it, you'll discover that Tic-Tac-Toe isn't quite as simple as you think!</p>
+
+                <div class="modal-heading">
+                    <h2>Rules for Tic-Tac-Toe</h2>
+                </div>
+
+                <ol>
+                    <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+                    <li>You are X, your friend is O (It could be either way around). Players take turns putting their marks in empty squares.</li>
+                    <li>The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</li>
+                    <li>When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</li>
+                </ol>
+
+                <div class="modal-heading">
+                    <h2>How can I win at Tic Tac Toe?</h2>
+                </div>
+
+                <p>To beat the other player (or at least tie), you need to make use of a little bit of strategy. Strategy means figuring out what you need to do to win.</p>
+                <p>Part of your strategy is trying to figure out how to get three Xs in a row. The other part is trying to figure out how to stop the other player from getting three Os in a row.</p>
+                <p>After you put an X in a square, you start looking ahead. Where's the best place for your next X? You look at the empty squares and decide which ones are good choices—which ones might let you make three Xs in a row.</p>
+                <p>You also have to watch where your friend puts its O. That could change what you do next. If your friend gets two Os in a row, you have to put your next X in the last empty square in that row, or the other person will win. You are forced to play in a particular square or lose the game.</p>
+                <p>If you always pay attention and look ahead, you'll never lose a game of Tic-Tac-Toe. You may not win, but at least you'll tie.</p>
+            </div>
+          </div>
+
+        <div class="game-grid">
+            <div class="game-cell top-left"></div>
+            <div class="game-cell top-middle"></div>
+            <div class="game-cell top-right"></div>
+            <div class="game-cell middle-left"></div>
+            <div class="game-cell middle-middle"></div>
+            <div class="game-cell middle-right"></div>
+            <div class="game-cell bottom-left"></div>
+            <div class="game-cell bottom-middle"></div>
+            <div class="game-cell bottom-right"></div>
+        </div>
+ 
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

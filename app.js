@@ -1,12 +1,94 @@
-// Build Board
+// HTML Elements
+var status = document.querySelector('.status');
+var resetBtn = document.querySelector('.reset');
+var instructionsBtn = document.querySelector('.instructions');
+var modal = document.querySelector('.modal');
+var closeModalBtn = document.querySelector('.close');
+var playersTurnDisplay = document.querySelector('.players-turn')
+var cellDivs = document.querySelectorAll('.game-cell');
 
-// Play Game
 
-// Create Players
+// Game variables
+var xIsNext = true;
 
-// Keep track of player's turn
+// Functions
+var checkGameStatus = function() {
+    // Check whether the cell is a 'x' or 'o'
+    var topLeft = cellDivs[0].classList[2];
+    var topMiddle = cellDivs[1].classList[2];
+    var topRight = cellDivs[2].classList[2];
+    var middleLeft = cellDivs[3].classList[2];
+    var middleMiddle = cellDivs[4].classList[2];
+    var middleRight = cellDivs[5].classList[2];
+    var bottomLeft = cellDivs[6].classList[2];
+    var bottomMiddle = cellDivs[7].classList[2];
+    var bottomRight = cellDivs[8].classList[2];
 
-// When you win
+    // Check for winner
+}
+
+
+
+// Event Handlers
+var handleReset = function(event) {
+    console.log(event);
+}
+
+var handleCellClick = function(event) {
+    var classList = event.target.classList;
+    var location = classList[1];
+    
+    // If the cell already active, exit func so cell can't be clicked twice
+    if (classList[2] === 'o' || classList[2] === 'x') {
+        return; 
+    }
+
+    // If 'x' is next then change to 'o' then switch turns (vice versa)
+    if (xIsNext) {
+        classList.add('o');
+        xIsNext = !xIsNext;
+        playersTurnDisplay.textContent = 'X'
+    } else {
+        classList.add('x');
+        xIsNext = !xIsNext;
+        playersTurnDisplay.textContent = 'O'
+    }
+}
+
+// Event listeners
+resetBtn.addEventListener('click', handleReset);
+
+instructionsBtn.addEventListener('click', function() { modal.style.display = 'block'; });
+
+closeModalBtn.addEventListener('click', function() { modal.style.display = "none"; });
+
+cellDivs.forEach(elem => elem.addEventListener('click', handleCellClick));
+
+window.onclick = function(event) {
+    if (event.target == modal) { modal.style.display = "none"; }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 /* 
 Create an HTML page that display's a Tic Tac Toe grid
