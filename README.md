@@ -11,7 +11,7 @@ You probably already know how to play Tic-Tac-Toe. It's a really simple game, ri
 
 4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
 
-## How can I win at Tic-Tace-Toe?
+## How can I win at Tic-Tac-Toe?
 To beat the other player (or at least tie), you need to make use of a little bit of strategy. Strategy means figuring out what you need to do to win.
 
 Part of your strategy is trying to figure out how to get three Xs in a row. The other part is trying to figure out how to stop the other player from getting three Os in a row.
