@@ -7,7 +7,7 @@
 h1 {
     animation-duration: 5s;
     animation-delay: 2s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 4;
 }
 
 body {
@@ -37,23 +37,20 @@ body {
 }
 
 .title span {
-    color: whitesmoke;
+    color: #FFC428;
 }
 
 .menu {
     padding-top: 50px;
     font-size: 22px;
-    color: lightgray;
+    color: #FFC428;
 }
 
 .next-player {
     text-align: center;
     color: rgb(34, 34, 34);
-}
-
-.next-player p {
     font-family: 'courier';
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .players-turn {
@@ -157,17 +154,22 @@ body {
     width: 150px;
     height: 150px;
     background-color: crimson;
-    cursor: pointer;  
+    cursor: pointer; 
+    padding-bottom: 50px; 
+}
+
+.x-winner {
+    color: rgb(255, 196, 40);
 }
 
 /* ::before selector inserts something before the content of each selected element */
 .x::before {
-    content: '×';
-    font-size: 120px; 
+    content: '✖';
+    font-size: 130px; 
+    color: #FFC428;
 }
 
 .o::before {
-    content: '○';
-    font-size: 120px; 
-
+    content: '✪';
+    font-size: 130px; 
 }
