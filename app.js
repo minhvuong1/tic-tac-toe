@@ -13,7 +13,7 @@ var winner = null;
 var xSymbol = '✖';
 var oSymbol = '✪';
 
-var convertLetter = (letter) => letter === 'x' ? xSymbol : oSymbol;
+var convertLetter = (letter) => letter === 'x' ? xSymbol : oSymbol; 
 
 var checkForWinner = function(letter) {
     gameRunning = false;
