@@ -1,3 +1,4 @@
+// DOM Elements
 var status = document.querySelector('.status');
 var resetBtn = document.querySelector('.reset');
 var instructionsBtn = document.querySelector('.instructions');
@@ -6,9 +7,10 @@ var closeModalBtn = document.querySelector('.close');
 var nextPlayerDisplay = document.querySelector('.next-player');
 var cellDivs = document.querySelectorAll('.game-cell');
 
+// Game variables
 var gameRunning = true;
 var oIsNext = true;
-var winner = null;
+var winner = null; 
 var xSymbol = '✖';
 var oSymbol = '✪';
 
@@ -92,7 +94,7 @@ var handleCellClick = function(event) {
         if (targetClassList[1] === 'o' || targetClassList[1] === 'x') { 
             return;  
         }
-        // If 'o' is next then next target cell will be 'o' then switch turns
+        // Target cell start off with 'o' then switch turns
         if (oIsNext) {
             targetClassList.add('o');
             nextPlayerDisplay.innerHTML = '<p>PLAYER <span style="color: rgb(255, 198, 41);" class="players-turn">✖</span> IS NEXT </p>';
