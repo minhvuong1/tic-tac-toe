@@ -20,10 +20,10 @@ var checkForWinner = function(letter) {
     winner = letter;
     nextPlayerDisplay.classList.add('next-player');
     if (winner === 'x') {
-        nextPlayerDisplay.textContent = `${convertLetter(letter)} HAS WON!`;
+        nextPlayerDisplay.textContent = `PLAYER ${convertLetter(letter)} HAS WON!`;
         nextPlayerDisplay.style.color = 'rgb(255, 196, 40)';
     } else {
-        nextPlayerDisplay.textContent = `${convertLetter(letter)} HAS WON!`;
+        nextPlayerDisplay.textContent = `PLAYER ${convertLetter(letter)} HAS WON!`;
         nextPlayerDisplay.style.color = 'white';
     }
 }
