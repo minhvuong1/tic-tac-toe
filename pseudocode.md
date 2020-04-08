@@ -2,9 +2,7 @@
 
 Create an HTML page that display's a Tic Tac Toe grid
 
-Ask for player one's name 
-
-Ask for player two's name 
+Users should not be able to click in a square that has already been marked
 
 Display a message on the page that says "Player 1's Turn" 
 
@@ -22,6 +20,5 @@ Continue alternating until there is a winner or a tie
 
 Display a message declaring the winner (or tie)
 
-Allow the user to Play Again (without re-entering their names) if they'd like
+Allow the user to Play Again if they'd like
 
-Users should not be able to click in a square that has already been marked
