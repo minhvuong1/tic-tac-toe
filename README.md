@@ -24,6 +24,23 @@ You also have to watch where your friend puts its O. That could change what you 
 
 If you always pay attention and look ahead, you'll never lose a game of Tic-Tac-Toe. You may not win, but at least you'll tie.
 
+## General Requirements
+- Render a game in the browser
+
+- Switch turns between more than one player
+
+- Design logic for winning & visually display which player won
+
+- Include separate HTML / CSS / JavaScript files
+
+- Stick with KISS (Keep It Simple Stupid) principles
+
+- Use Javascript for DOM manipulation
+
+- Deploy your game online, where the rest of the world can access it
+
+- Use semantic markup for HTML and CSS (adhere to best practices)
+
 ## Devlopment
 1. HTML
 2. CSS
