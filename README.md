@@ -29,6 +29,6 @@ If you always pay attention and look ahead, you'll never lose a game of Tic-Tac-
 2. CSS
 3. Javascript
 
-I started by sketching the mockup on my whiteboard and writing the pseudocode down for the game logic. I then design the game board through VSCode using HTML for the structured layout and design while including styles and animation using CSS and other libraries such as animate.css and Google Fonts API. For the interaction and gameplay between user and the app I ultilized javascript and DOM Manipulation.
+I started by sketching the mockup on a whiteboard and writing the pseudocode down for the game logic. I then design the game board through VSCode using HTML for the structured layout and design while including styles and animation using CSS and other libraries such as animate.css and Google Fonts API. For the interaction and gameplay between user and the app I ultilized Javascript and DOM Manipulation for better user experience.
 
 
