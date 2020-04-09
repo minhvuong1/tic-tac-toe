@@ -4,6 +4,8 @@ You probably already know how to play Tic-Tac-Toe. It's a really simple game, ri
 
 Play here: https://minhvuong1.github.io/tic-tac-toe/
 
+<img src="https://github.com/minhvuong1/tic-tac-toe/blob/master/screenshot.png" width="310">
+
 ## Rules for Tic-Tac-Toe
 1. The game is played on a grid that's 3 squares by 3 squares.
 
