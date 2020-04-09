@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe 
 
 You probably already know how to play Tic-Tac-Toe. It's a really simple game, right? That's what most people think. But if you really wrap your brain around it, you'll discover that Tic-Tac-Toe isn't quite as simple as you think!
 
@@ -23,3 +23,12 @@ After you put an X in a square, you start looking ahead. Where's the best place 
 You also have to watch where your friend puts its O. That could change what you do next. If your friend gets two Os in a row, you have to put your next X in the last empty square in that row, or the other person will win. You are forced to play in a particular square or lose the game.
 
 If you always pay attention and look ahead, you'll never lose a game of Tic-Tac-Toe. You may not win, but at least you'll tie.
+
+## Devlopment
+1. HTML
+2. CSS
+3. Javascript
+
+I started by sketching the mockup on my whiteboard and writing the pseudocode down for the game logic. I then design the game board through VSCode using HTML for the structured layout and design while including styles and animation using CSS and other libraries such as animate.css and Google Fonts API. For the interaction and gameplay between user and the app I ultilized javascript and DOM Manipulation.
+
+
